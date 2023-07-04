@@ -19,13 +19,10 @@ public:
         while( temp!=NULL){
             temp = temp->next;
             count++;
-           // cout<<"done";
             cout<< count<<","<<endl;
            cout <<endl;
         }
-        // if (count%2!=0){
-        //     count++;
-        // }
+       
         middle=ceil(count/2)+1;
         cout<<middle;
         temp=head;
