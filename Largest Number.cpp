@@ -5,29 +5,7 @@ public:
         string temp;
         string s;
         vector<string> v;
-        // for (int i=0;i<n;i++){
-        //       int min_index=i;
-        //  for(int j=i;j<n;j++){
-        //      if(nums[j]<nums[min_index]){
-        //          min_index=j;
-        //      }
-        //  }
-        //  if(i != min_index){
-        //      temp=nums[i];
-        //      nums[i]=nums[min_index];
-        //      nums[min_index]=temp;
-
-        //  }
-
-        // }
-        // for(int x:nums){
-        //     cout<<x<<",";
-        // }
-        // for (int i=0;i<=n;i++){
-        //     for(int j=0;j<=n;j++){
-        //         if ()
-        //     }
-        // }
+       
       for (int i = 0; i < n; i++) {
    v.push_back(to_string(nums[i]));
  }
@@ -51,9 +29,7 @@ public:
    }
   else{s = s + v[i];}
  }
-//  if(s.at(0)==0){
-//      s.erase(0);
-//  }
+
 if(s!=""){
  return s;}
  else{
