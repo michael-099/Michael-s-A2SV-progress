@@ -13,7 +13,7 @@ class Solution {
    
     
       if (tokens[i].equals ("+")) {
-      // tokens
+     
           a = stack.peek();
         stack.pop();
         b = stack.peek();
@@ -46,10 +46,7 @@ class Solution {
         stack.push(o);
       }
     }
-    // while (stack != null) {
-    //   System.out.println(stack.peek());
-    //   stack.pop();
-    // }
+   
     return stack.peek();
   }
 }
