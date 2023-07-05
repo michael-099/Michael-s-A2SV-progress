@@ -49,19 +49,7 @@ public:
         }
               
          return x;
-    //     for(int i=0 ;i<count-1 ;i++){
-    //         o = one.top();
-    //             one.pop();
-    //         two.push(a);
-    //     }
-    //     int x=two.top();
-    //   return  x;  
-        // while(one.top() != NULL)
-        // {cout << one.top();
-        // one.pop();}
-        //int x=0 ;
-        
-       //  return one.top();
+  
     }
     
     bool empty() {return one.empty();
