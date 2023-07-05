@@ -31,10 +31,6 @@ void countSwaps(vector<int> a) {
         cout<< "Array is sorted in "<< count<< " swaps."<<endl;
         cout<<"First Element: "<<a[0]<<endl;
         cout<<"Last Element: "<<a[n-1]<<endl;}
-    
-
-
-
 int main()
 {
     string n_temp;
