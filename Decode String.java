@@ -3,6 +3,7 @@ class Solution {
         if (s.length() == 0 || s == null) {
             return s;
         }
+
         Stack<String> strStack = new Stack<String>();
         Stack<Integer> numStack = new Stack<Integer>();
         StringBuilder res = new StringBuilder();
