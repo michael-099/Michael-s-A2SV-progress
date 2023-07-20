@@ -19,7 +19,6 @@ public:
                     time = x;
                     count++;
                 }
-            
         }
         return count;
     }
